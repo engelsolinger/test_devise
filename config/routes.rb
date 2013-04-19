@@ -1,5 +1,6 @@
 MyTest::Application.routes.draw do
   root :to => 'paginas_estaticas#index'
+
   get "paginas_estaticas/index"
 
   get "paginas_estaticas/about"
